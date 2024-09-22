@@ -5,8 +5,6 @@ public class StudentRegister {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-
-        // Taking input for the number of students
         System.out.println("Enter the number of students: ");
         int n = scanner.nextInt();
         scanner.nextLine();  // consume the newline after the integer input
@@ -22,7 +20,6 @@ public class StudentRegister {
 
         // Sorting the student names in alphabetical order
         Arrays.sort(students);
-
         // Display the sorted student names
         System.out.println("Students in alphabetical order:");
         for (String student : students) {
