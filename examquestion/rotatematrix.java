@@ -17,7 +17,8 @@ public class rotatematrix {
         }
         System.out.println();
     }
-    
+    System.out.println();
+
     for(int i=0;i<x;i++){ 
         for(int j=i+1;j<x;j++){
             int temp=arr[i][j];
@@ -25,6 +26,14 @@ public class rotatematrix {
             arr[j][i]=temp;
         }
     }
+    // for(int i=0;i<x;i++){
+    //     for(int j=0;j<x;j++){
+    //        System.out.print (arr[i][j]+" ");
+    //     }
+    //     System.out.println();
+    // }
+
+
     for(int k=0;k<x;k++){
         int i=0;
         int j=x-1;
@@ -43,6 +52,7 @@ public class rotatematrix {
         }
         System.out.println();
     }
-      }
+      
+}
 
 }

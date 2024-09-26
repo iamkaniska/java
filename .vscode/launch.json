@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "reverseString",
+      "request": "launch",
+      "mainClass": "reverseString",
+      "projectName": "Java_a2d8b02"
+    },
+    {
+      "type": "java",
       "name": "swapZero",
       "request": "launch",
       "mainClass": "swapZero",

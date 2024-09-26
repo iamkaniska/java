@@ -5,8 +5,6 @@ public class keprekerprac {
         Scanner sc= new Scanner(System.in);
         int num=sc.nextInt();
         int multi=num*num;
-
-
         int temp=num;
         int count=0;
         for(int i=0;i<temp;i++){
